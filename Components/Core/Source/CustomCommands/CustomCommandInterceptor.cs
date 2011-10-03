@@ -1,10 +1,11 @@
 using System;
 using System.IO;
-using Castle.Core.Interceptor;
 using White.Core.UIItems;
 
 namespace White.Core.CustomCommands
 {
+    using Castle.DynamicProxy;
+
     public class CustomCommandInterceptor : IInterceptor
     {
         private readonly UIItem uiItem;

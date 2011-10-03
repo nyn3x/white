@@ -1,5 +1,5 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BCBA4C4-8C47-496C-B0D4-FDE9D066ED27}"
 	ProjectSection(SolutionItems) = preProject
 		a.log = a.log
@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recorder", "Components\Reco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "White.Recorder.Tests", "Components\Recorder\Tests\White.Recorder.Tests.csproj", "{910CC90B-31CD-4A13-8EAC-9B197395EE6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCommands.Framework.Silverlight", "Components\CustomCommands\Framework\CustomCommands.Framework.Silverlight.csproj", "{11FBB4B6-E269-43E4-A335-F0AD1F848493}"
+Project("{00000000-0000-0000-0000-000000000000}") = "CustomCommands.Framework.Silverlight", "Components\CustomCommands\Framework\CustomCommands.Framework.Silverlight.csproj", "{11FBB4B6-E269-43E4-A335-F0AD1F848493}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCommands.Framework.WPF", "Components\CustomCommands\Framework\CustomCommands.Framework.WPF.csproj", "{81A680B4-21B8-4AF4-8D6E-795376E6F855}"
 EndProject
@@ -45,11 +45,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCommands.SilverlightT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "Components\CustomControls\Source\CustomControls\CustomControls.csproj", "{8513D286-87D2-459D-A713-2E583FB797F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls.Silverlight", "Components\CustomControls\Source\CustomControls\CustomControls.Silverlight.csproj", "{683DEA2B-BE16-4643-B7E7-9AFF595B60C3}"
+Project("{00000000-0000-0000-0000-000000000000}") = "CustomControls.Silverlight", "Components\CustomControls\Source\CustomControls\CustomControls.Silverlight.csproj", "{683DEA2B-BE16-4643-B7E7-9AFF595B60C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlPeers", "Components\CustomControls\Source\CustomControlPeers\CustomControlPeers.csproj", "{E73299E0-35A0-4923-B0DD-93B6744EE75E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlPeers.Silverlight", "Components\CustomControls\Source\CustomControlPeers\CustomControlPeers.Silverlight.csproj", "{ED8E108C-4469-4D07-B60F-436178EB5E2C}"
+Project("{00000000-0000-0000-0000-000000000000}") = "CustomControlPeers.Silverlight", "Components\CustomControls\Source\CustomControlPeers\CustomControlPeers.Silverlight.csproj", "{ED8E108C-4469-4D07-B60F-436178EB5E2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "White.CustomControls.UnitTests", "Components\CustomControls\Tests\White.CustomControls.UnitTests.csproj", "{9F509E89-5158-4095-B3D8-53FE00027363}"
 EndProject

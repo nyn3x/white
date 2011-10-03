@@ -1,8 +1,9 @@
 using Bricks.RuntimeFramework;
-using Castle.Core.Interceptor;
 
 namespace Repository.Interceptors
 {
+    using Castle.DynamicProxy;
+
     public class ScreenObjectInterceptor : IInterceptor
     {
         private readonly ReflectedObject reflectedScreen;

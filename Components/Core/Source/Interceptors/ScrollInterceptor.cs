@@ -1,9 +1,10 @@
 using Bricks.DynamicProxy;
-using Castle.Core.Interceptor;
 using White.Core.UIItems;
 
 namespace White.Core.Interceptors
 {
+    using Castle.DynamicProxy;
+
     //Doc PrimaryUIItems would be scrolled automatically but secondary wont
     public class ScrollInterceptor : DynamicProxyInterceptor
     {

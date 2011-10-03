@@ -1,6 +1,5 @@
 using System;
 using Bricks.DynamicProxy;
-using Castle.Core.Interceptor;
 using White.Core.Configuration;
 using White.Core.Logging;
 using White.Core.UIItems;
@@ -8,6 +7,8 @@ using White.Core.UIItems.Actions;
 
 namespace White.Core.Interceptors
 {
+    using Castle.DynamicProxy;
+
     public class CoreInterceptor : IInterceptor
     {
         private readonly CoreInterceptContext coreInterceptContext;

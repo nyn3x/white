@@ -1,6 +1,5 @@
 using System;
 using Bricks.RuntimeFramework;
-using Castle.Core.Interceptor;
 using White.Core;
 using White.Core.Factory;
 using White.Core.UIItems;
@@ -10,6 +9,8 @@ using Reporting.Domain;
 
 namespace Repository.Interceptors
 {
+    using Castle.DynamicProxy;
+
     /// <summary>
     /// Lazily initializes the UIItem.
     /// </summary>

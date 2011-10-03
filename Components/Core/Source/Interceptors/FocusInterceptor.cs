@@ -1,8 +1,9 @@
 using Bricks.DynamicProxy;
-using Castle.Core.Interceptor;
 
 namespace White.Core.Interceptors
 {
+    using Castle.DynamicProxy;
+
     //TODO How to do focus on secondary controls?
     public class FocusInterceptor : DynamicProxyInterceptor
     {

@@ -4,7 +4,6 @@ using System.Reflection;
 using System.Windows.Automation;
 using Bricks.Core;
 using Bricks.RuntimeFramework;
-using Castle.Core.Interceptor;
 using White.Core.AutomationElementSearch;
 using White.Core.Factory;
 using White.Core.InputDevices;
@@ -21,6 +20,8 @@ using White.Core.UIItems.WindowStripControls;
 
 namespace White.Core.UIItems
 {
+    using Castle.DynamicProxy;
+
     //BUG: Allow finding more than one item, also ability to do this within a container
     //TODO: Dont let people compile code is they are trying to find UIItem which are secondary or window
     public class UIItemContainer : UIItem, IUIItemContainer, VerticalSpanProvider

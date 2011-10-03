@@ -1,11 +1,12 @@
 using System;
 using Bricks.RuntimeFramework;
-using Castle.Core.Interceptor;
 using White.Core;
 using Reporting.Domain;
 
 namespace Repository.Services
 {
+    using Castle.DynamicProxy;
+
     public class ServiceInterceptor : IInterceptor
     {
         private readonly Service service;

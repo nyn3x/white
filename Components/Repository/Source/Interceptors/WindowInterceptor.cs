@@ -1,10 +1,11 @@
 using System;
 using Bricks.RuntimeFramework;
-using Castle.Core.Interceptor;
 using White.Core.UIItems.WindowItems;
 
 namespace Repository.Interceptors
 {
+    using Castle.DynamicProxy;
+
     public class WindowInterceptor : IInterceptor
     {
         private readonly Window window;
